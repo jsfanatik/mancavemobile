@@ -18,7 +18,7 @@ const features = [
   },
   {
     name: 'Database backups.',
-    description: 'Swipe Left on a recipe to delete it from favorites.',
+    description: 'Swipe left on a recipe to delete it from favorites.',
     icon: FolderRemoveIcon,
   },
 ]
