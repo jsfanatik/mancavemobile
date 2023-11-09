@@ -25,7 +25,7 @@ const features = [
 
 export default function Example() {
   return (
-    <div className="overflow-hidden bg-white py-24 sm:py-32">
+    <div className="overflow-hidden bg-white py-24 sm:py-32 relative">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
@@ -64,10 +64,10 @@ export default function Example() {
           </div>
         </div>
       </div>
-      <Link to="/pme/shopping" className="fixed left-4 bottom-4 bg-red-500 text-white p-4 rounded-full shadow-lg">
+      <Link to="/pme/shopping" className="fixed left-12 bg-red-500 text-white p-4 rounded-full shadow-lg top-1/2 transform -translate-y-1/2">
         <ChevronLeftIcon className="h-6 w-6" />
       </Link>
-      <Link to="/pme/contact" className="fixed right-4 bottom-4 bg-red-500 text-white p-4 rounded-full shadow-lg">
+      <Link to="/pme/contact" className="fixed right-12 bg-red-500 text-white p-4 rounded-full shadow-lg top-1/2 transform -translate-y-1/2">
         <ChevronRightIcon className="h-6 w-6" />
       </Link>
     </div>

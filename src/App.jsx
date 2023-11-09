@@ -23,8 +23,14 @@ export default function App() {
 
   return (
     <Router>
+      {/* <div className="flex flex-col min-h-screen">
+        <div className="flex-grow">
+
+        </div>
+      </div> */}
+        
       <div className="bg-white">
-        <header className="absolute inset-x-0 top-0 z-50">
+        <header className="fixed top-0 w-full z-50">
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
               <Link to="/" className="-m-1.5 p-1.5">
@@ -85,13 +91,13 @@ export default function App() {
           </Dialog>
         </header>
 
-        <div className="relative isolate px-6 pt-14 lg:px-8">
+        {/* <div className="relative isolate px-6 pt-14 lg:px-8">
           <div
             className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
             aria-hidden="true"
           >
           </div>
-        </div>
+        </div> */}
       </div>
       {/* <AnimatedRoutes /> */}
       <Routes>
@@ -104,6 +110,9 @@ export default function App() {
         <Route path="/pme/favorites" element={<Page5 />} />
         <Route path="/pme/contact" element={<Page6 />} />
       </Routes>
+      <footer className="fixed bottom-0 w-full bg-gray-800 text-white text-center p-4">
+        &copy; {new Date().getFullYear()} <span className="text-red-500">ManCave</span>Mobile. All rights reserved.
+      </footer>
     </Router>
   )
 }
