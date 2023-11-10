@@ -6,7 +6,7 @@ export default function Home() {
 
     return (
         <div className="bg-white">
-            <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+            <div className="mx-auto max-w-2xl py-32 sm:py-36 lg:py-44">
                 <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                     <div className="relative px-3 py-1 text-sm leading-6 text-gray-600">
                         <motion.img

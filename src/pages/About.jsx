@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
-import { ChevronRightIcon, LockOpenIcon, LightningBoltIcon, TrendingUpIcon } from '@heroicons/react/solid'
+import { LightningBoltIcon, TrendingUpIcon } from '@heroicons/react/solid'
 import imgOne from '../assets/screenshots/smartphone.png';
 
 const features = [
@@ -12,14 +11,9 @@ const features = [
   },
   {
     name: 'Our mission',
-    description: 'is to transform the mundane into the extraordinary by developing a collection of fun, useful, and intuitive mobile applications. We believe that technology can be harnessed to make everyday tasks more enjoyable, productive, and accessible.',
+    description: 'is to transform the mundane into the extraordinary by developing a collection of fun, useful, and intuitive mobile applications. We believe that technology can be harnessed to make everyday tasks more enjoyable, productive, and accessible. We aim to build a digital "ManCave" where ideas come to life and technology is harnessed to make daily life more enjoyable and productive.',
     icon: TrendingUpIcon,
-  },
-  {
-    name: 'Our vision',
-    description: 'is to be a pioneer in creating fun, useful, and intuitive mobile applications, setting the standard for innovation and creativity in the industry. We aim to build a digital "ManCave" where ideas come to life and technology is harnessed to make daily life more enjoyable and productive.',
-    icon: LockOpenIcon,
-  },
+  }
 ]
 
 export default function Example() {
@@ -52,9 +46,6 @@ export default function Example() {
             /> 
         </div>
       </div>
-      <Link to="/pme/contact" className="fixed right-4 bottom-4 bg-red-500 text-white p-4 rounded-full shadow-lg">
-        <ChevronRightIcon className="h-6 w-6" />
-      </Link>
     </div>
   )
 }

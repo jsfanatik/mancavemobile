@@ -7,18 +7,18 @@ export default function Home() {
 
     return (
         <div className="bg-white">
-            <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+            <div className="mx-auto max-w-2xl py-32 sm:py-36 lg:py-44">
                 <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                     <motion.img
-                            src={caveImg}
-                            alt="My Image"
-                            initial={{ y: '-100vw', opacity: 0 }}
-                            animate={{ y: 0, opacity: 1 }}
-                            transition={{ type: 'spring', stiffness: 40 }}
-                            width={90}
-                        />
-                    </div>
-                    <div className="text-center">
+                        src={caveImg}
+                        alt="My Image"
+                        initial={{ y: '-100vw', opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ type: 'spring', stiffness: 40 }}
+                        width={90}
+                    />
+                </div>
+                <div className="text-center">
                     <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                         Interested in testing our apps?
                     </h1>
