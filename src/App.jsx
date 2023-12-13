@@ -2,14 +2,17 @@ import { useState } from 'react'
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Dialog } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import twitterImg from './assets/screenshots/dec-2023-shots/twitter.png';
+import { X } from 'react-feather';
 import Home from '../src/pages/Home'
 import About from '../src/pages/About'
-import Page1 from '../src/pages/Page1'
-import Page2 from '../src/pages/Page2'
-import Page3 from '../src/pages/Page3'
-import Page4 from '../src/pages/Page4'
-import Page5 from '../src/pages/Page5'
-import Page6 from '../src/pages/Page6'
+import Overview from './pages/Overview'
+import Explore from './pages/Explore'
+import MenuPlanner from './pages/MenuPlanner'
+import Shopping from './pages/Shopping'
+import Favorites from './pages/Favorites'
+import Contact from './pages/Contact'
+import Search from './pages/Search'
 
 const navigation = [
   { name: 'Home', href: '/'},
@@ -103,12 +106,13 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="/pme/overview" element={<Page1 />} />
-        <Route path="/pme/explore" element={<Page2 />} />
-        <Route path="/pme/planner" element={<Page3 />} />
-        <Route path="/pme/shopping" element={<Page4 />} />
-        <Route path="/pme/favorites" element={<Page5 />} />
-        <Route path="/pme/contact" element={<Page6 />} />
+        <Route path="/pme/overview" element={<Overview />} />
+        <Route path="/pme/explore" element={<Explore />} />
+        <Route path="/pme/search" element={<Search />} />
+        <Route path="/pme/planner" element={<MenuPlanner />} />
+        <Route path="/pme/shopping" element={<Shopping />} />
+        <Route path="/pme/favorites" element={<Favorites />} />
+        <Route path="/pme/contact" element={<Contact />} />
       </Routes>
       <footer className="fixed bottom-0 w-full bg-gray-800 text-white text-center p-4">
         &copy; {new Date().getFullYear()} <span className="text-red-500">ManCave</span>Mobile. All rights reserved.

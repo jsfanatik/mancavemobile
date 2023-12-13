@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ChevronLeftIcon, ChevronRightIcon, SearchIcon, LightningBoltIcon } from '@heroicons/react/solid'
-import imgOne from '../assets/screenshots/page_one_shot2.png';
-import imgTwo from '../assets/screenshots/page_one_shot8.png';
+import { ChevronLeftIcon, ChevronRightIcon, SearchIcon, LightningBoltIcon, ThumbUpIcon } from '@heroicons/react/solid'
+// import imgOne from '../assets/screenshots/page_one_shot2.png';
+// import imgTwo from '../assets/screenshots/page_one_shot8.png';
+import imgOne from '../assets/screenshots/dec-2023-shots/explore_one.png';
+import imgTwo from '../assets/screenshots/dec-2023-shots/explore_three.png';
 
 const features = [
   {
@@ -12,8 +14,8 @@ const features = [
     icon: SearchIcon,
   },
   {
-    name: 'SSL certificates.',
-    description: 'Discover trending recipes, seasonal delights, and explore new culinary horizons effortlessly.',
+    name: 'Database backups.',
+    description: 'Dive into a vast array of recipes curated based on your chosen ingredients. From the basics to the exotic, find the perfect dish that matches your cravings and available supplies.',
     icon: LightningBoltIcon,
   },
 ]
@@ -39,7 +41,7 @@ export default function Example() {
               </dl>
             </div>
           </div>
-          <div className="aspect-w-16 aspect-h-9 max-w-none ring-1 ring-gray-400/10 w-1/2 flex space-x-10">
+          <div className="aspect-w-16 aspect-h-9 max-w-none ring-1 ring-gray-400/10 w-64 flex space-x-10">
             <motion.img
               src={imgOne}
               alt="My Image"
@@ -62,7 +64,7 @@ export default function Example() {
       <Link to="/pme/overview" className="fixed left-12 bg-red-500 text-white p-4 rounded-full shadow-lg top-1/2 transform -translate-y-1/2">
         <ChevronLeftIcon className="h-6 w-6" />
       </Link>
-      <Link to="/pme/planner" className="fixed right-12 bg-red-500 text-white p-4 rounded-full shadow-lg top-1/2 transform -translate-y-1/2">
+      <Link to="/pme/search" className="fixed right-12 bg-red-500 text-white p-4 rounded-full shadow-lg top-1/2 transform -translate-y-1/2">
         <ChevronRightIcon className="h-6 w-6" />
       </Link>
     </div>
