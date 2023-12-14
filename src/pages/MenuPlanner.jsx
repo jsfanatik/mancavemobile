@@ -53,7 +53,7 @@ export default function Example() {
               initial={{ x: '100vw', opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ type: 'spring', stiffness: 30 }}
-              className="border border-gray-300"
+              className="border border-gray-300 rounded-2xl"
             />
             <motion.img
               src={imgTwo}
@@ -61,7 +61,7 @@ export default function Example() {
               initial={{ x: '100vw', opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ type: 'spring', stiffness: 70 }}
-              className="border border-gray-300"
+              className="border border-gray-300 rounded-2xl"
             />
           </div>
         </div>
