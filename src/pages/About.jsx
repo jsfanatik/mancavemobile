@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { LightningBoltIcon, TrendingUpIcon } from '@heroicons/react/solid'
+import { LightningBoltIcon, TrendingUpIcon, ShieldCheckIcon } from '@heroicons/react/solid'
 import imgOne from '../assets/screenshots/smartphone.png';
 
 const features = [
@@ -13,7 +13,12 @@ const features = [
     name: 'Our mission',
     description: 'is to transform the mundane into the extraordinary by developing a collection of fun, useful, and intuitive mobile applications. We believe that technology can be harnessed to make everyday tasks more enjoyable, productive, and accessible. We aim to build a digital "ManCave" where ideas come to life and technology is harnessed to make daily life more enjoyable and productive.',
     icon: TrendingUpIcon,
-  }
+  },
+  // {
+  //   name: 'Our vision',
+  //   description: '&copy; {new Date().getFullYear()} <span className="text-red-500">ManCave</span>Mobile. All rights reserved.',
+  //   icon: ShieldCheckIcon,
+  // },
 ]
 
 export default function Example() {
