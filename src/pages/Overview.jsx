@@ -52,7 +52,7 @@ const features = [
   {
       id: 4,
       name: 'Database.',
-      description: 'PlanMyEats not only features a user-friendly interface but also cultivates a vibrant community where users share recipes and collaborate on meal plans. This collaborative platform fosters creativity and culinary inspiration for a shared cooking experience.',
+      description: 'PlanMyEats not only features a user-friendly interface but also cultivates a vibrant community where users share recipes and collaborate on meal plans.',
       icon: UserGroupIcon
   },
 ]
@@ -211,7 +211,7 @@ export default function Example() {
             ...a user-friendly mobile app that revolutionizes the culinary experience!
             </p>
           </div>
-          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-12 lg:max-w-4xl">
             <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
               {features.map((feature) => (
                 <div key={feature.id} className="relative pl-16">
@@ -246,16 +246,16 @@ export default function Example() {
 
       {/* container two */}
       <div id="containerTwo" className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        <div className="mx-auto max-w-2xl lg:text-center">
+        {/* <div className="mx-auto max-w-2xl lg:text-center">
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-red-600 sm:text-4xl">
             Gallery
           </h1>
-        </div>
+        </div> */}
         <h2 className="sr-only">Products</h2>
-        <div className="mt-8 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <div className="mt-4 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (
             <a key={product.id} href={product.href} className="group">
-              <div className="aspect-h-16 aspect-w-9 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-16 xl:aspect-w-9">
+              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-1 xl:aspect-w-1">
                 <img
                   src={product.image}
                   alt={product.imageAlt}
