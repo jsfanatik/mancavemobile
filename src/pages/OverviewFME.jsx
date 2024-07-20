@@ -6,7 +6,6 @@ import {
   LightningBoltIcon, 
   ChevronDownIcon, 
   ChevronUpIcon,
-  SearchIcon
  } from '@heroicons/react/solid'
 import fmeOne from '../assets/screenshots/fmeshots/fme-one.png'
 import fmeTwo from '../assets/screenshots/fmeshots/fme-two.png'
@@ -205,7 +204,7 @@ export default function Example() {
                 <img
                   src={product.image}
                   alt={product.imageAlt}
-                  className="h-full w-full object-cover object-center"
+                  className="h-full w-full object-cover object-center border-2 border-gray-300" // Added border classes
                 />
               </div>
               <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>

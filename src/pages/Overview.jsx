@@ -8,22 +8,22 @@ import {
   ChevronUpIcon,
   SearchIcon
  } from '@heroicons/react/solid'
-import exploreMain from '../assets/screenshots/phase-two-screenshots/explore-main.png';
-import cuisineSelector from '../assets/screenshots/phase-two-screenshots/cuisine-selector.png';
-import recipeSelector from '../assets/screenshots/phase-two-screenshots/recipe-selector.png';
-import recipeOne from '../assets/screenshots/phase-two-screenshots/recipe-one.png';
-import recipeTwo from '../assets/screenshots/phase-two-screenshots/recipe-two.png';
-import recipeThree from '../assets/screenshots/phase-two-screenshots/recipe-three.png';
-import recipeFour from '../assets/screenshots/phase-two-screenshots/recipe-four.png';
-import menuPlannerOne from '../assets/screenshots/phase-two-screenshots/menu-planner-one.png';
-import menuPlannerTwo from '../assets/screenshots/phase-two-screenshots/menu-planner-two.png';
-import menuPlannerThree from '../assets/screenshots/phase-two-screenshots/menu-planner-three.png';
-import menuPlannerFour from '../assets/screenshots/phase-two-screenshots/menu-planner-four.png';
-import search from '../assets/screenshots/phase-two-screenshots/search.png';
-import ingredientOne from '../assets/screenshots/phase-two-screenshots/ingredient-one.png';
-import ingredientTwo from '../assets/screenshots/phase-two-screenshots/ingredient-two.png';
-import ingredientThree from '../assets/screenshots/phase-two-screenshots/ingredient-three.png';
-import favorites from '../assets/screenshots/phase-two-screenshots/favorites.png';
+import pmeOne from '../assets/screenshots/pmeshots/pme-one.png';
+import pmeTwo from '../assets/screenshots/pmeshots/pme-two.png';
+import pmeThree from '../assets/screenshots/pmeshots/pme-three.png';
+import pmeFour from '../assets/screenshots/pmeshots/pme-four.png';
+import pmeFive from '../assets/screenshots/pmeshots/pme-five.png';
+import pmeSix from '../assets/screenshots/pmeshots/pme-six.png';
+import pmeSeven from '../assets/screenshots/pmeshots/pme-seven.png';
+import pmeEight from '../assets/screenshots/pmeshots/pme-eight.png';
+import pmeNine from '../assets/screenshots/pmeshots/pme-nine.png';
+import pmeTen from '../assets/screenshots/pmeshots/pme-ten.png';
+import pmeEleven from '../assets/screenshots/pmeshots/pme-eleven.png';
+import pmeTwelve from '../assets/screenshots/pmeshots/pme-twelve.png';
+import pmeThirteen from '../assets/screenshots/pmeshots/pme-thirteen.png';
+import pmeFourteen from '../assets/screenshots/pmeshots/pme-fourteen.png';
+import pmeFifteen from '../assets/screenshots/pmeshots/pme-fifteen.png';
+import pmeSixteen from '../assets/screenshots/pmeshots/pme-sixteen.png';
 
 const features = [
   {
@@ -57,97 +57,97 @@ const products = [
   {
     id: 1,
     name: 'Explore (Home Screen)',
-    image: exploreMain,
+    image: pmeOne,
     imageAlt: 'mobile screen',
   },
   {
     id: 2,
     name: 'Category Selector',
-    image: cuisineSelector,
+    image: pmeTwo,
     imageAlt: 'mobile screen',
   },
   {
     id: 3,
     name: 'Recipe Selector',
-    image: recipeSelector,
+    image: pmeThree,
     imageAlt: 'mobile screen',
   },
   {
     id: 4,
     name: 'Search',
-    image: search,
+    image: pmeFour,
     imageAlt: 'mobile screen',
   },
   {
     id: 5,
     name: 'Recipe',
-    image: recipeOne,
+    image: pmeFive,
     imageAlt: 'mobile screen',
   },
   {
     id: 6,
     name: 'Recipe - Save to Menu and Favorites',
-    image: recipeTwo,
+    image: pmeSix,
     imageAlt: 'mobile screen',
   },
   {
     id: 7,
     name: 'Recipe - Share/Export',
-    image: recipeThree,
+    image: pmeSeven,
     imageAlt: 'mobile screen',
   },
   {
     id: 8,
     name: 'Recipe - Help Page',
-    image: recipeFour,
+    image: pmeEight,
     imageAlt: 'mobile screen',
   },
   {
     id: 9,
     name: 'Menu Planner',
-    image: menuPlannerOne,
+    image: pmeNine,
     imageAlt: 'mobile screen',
   },
   {
     id: 10,
     name: 'Menu Planner - Day Select (Swipe Right)',
-    image: menuPlannerTwo,
+    image: pmeTen,
     imageAlt: 'mobile screen',
   },
   {
     id: 11,
     name: 'Menu Planner - Meal Select (Swipe Left)',
-    image: menuPlannerThree,
+    image: pmeEleven,
     imageAlt: 'mobile screen',
   },
   {
     id: 12,
     name: 'Menu Planner - Filters',
-    image: menuPlannerFour,
+    image: pmeTwelve,
     imageAlt: 'mobile screen',
   },
   {
     id: 13,
     name: 'Search by Ingredients',
-    image: ingredientOne,
+    image: pmeThirteen,
     imageAlt: 'mobile screen',
   },
   {
     id: 14,
     name: 'Search by Ingredients',
-    image: ingredientTwo,
+    image: pmeFourteen,
     imageAlt: 'mobile screen',
   },
   {
     id: 15,
     name: 'Search by Ingredients',
-    image: ingredientThree,
+    image: pmeFifteen,
     imageAlt: 'mobile screen',
   },
   {
     id: 16,
     name: 'Favorites',
-    image: favorites,
+    image: pmeSixteen,
     imageAlt: 'mobile screen',
   }
 ]
@@ -231,7 +231,7 @@ export default function Example() {
                 <img
                   src={product.image}
                   alt={product.imageAlt}
-                  className="h-full w-full object-cover object-center"
+                  className="h-full w-full object-cover object-center border-2 border-gray-300" // Added border classes
                 />
               </div>
               <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
