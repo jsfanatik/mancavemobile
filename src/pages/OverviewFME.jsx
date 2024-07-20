@@ -8,47 +8,45 @@ import {
   ChevronUpIcon,
   SearchIcon
  } from '@heroicons/react/solid'
-import exploreMain from '../assets/screenshots/phase-two-screenshots/explore-main.png';
-import cuisineSelector from '../assets/screenshots/phase-two-screenshots/cuisine-selector.png';
-import recipeSelector from '../assets/screenshots/phase-two-screenshots/recipe-selector.png';
-import recipeOne from '../assets/screenshots/phase-two-screenshots/recipe-one.png';
-import recipeTwo from '../assets/screenshots/phase-two-screenshots/recipe-two.png';
-import recipeThree from '../assets/screenshots/phase-two-screenshots/recipe-three.png';
-import recipeFour from '../assets/screenshots/phase-two-screenshots/recipe-four.png';
-import menuPlannerOne from '../assets/screenshots/phase-two-screenshots/menu-planner-one.png';
-import menuPlannerTwo from '../assets/screenshots/phase-two-screenshots/menu-planner-two.png';
-import menuPlannerThree from '../assets/screenshots/phase-two-screenshots/menu-planner-three.png';
-import menuPlannerFour from '../assets/screenshots/phase-two-screenshots/menu-planner-four.png';
-import search from '../assets/screenshots/phase-two-screenshots/search.png';
-import ingredientOne from '../assets/screenshots/phase-two-screenshots/ingredient-one.png';
-import ingredientTwo from '../assets/screenshots/phase-two-screenshots/ingredient-two.png';
-import ingredientThree from '../assets/screenshots/phase-two-screenshots/ingredient-three.png';
-import favorites from '../assets/screenshots/phase-two-screenshots/favorites.png';
+import fmeOne from '../assets/screenshots/fmeshots/fme-one.png'
+import fmeTwo from '../assets/screenshots/fmeshots/fme-two.png'
+import fmeThree from '../assets/screenshots/fmeshots/fme-three.png'
+import fmeFour from '../assets/screenshots/fmeshots/fme-four.png'
+import fmeFive from '../assets/screenshots/fmeshots/fme-five.png'
+import fmeSix from '../assets/screenshots/fmeshots/fme-six.png'
+import fmeSeven from '../assets/screenshots/fmeshots/fme-seven.png'
+import fmeEight from '../assets/screenshots/fmeshots/fme-eight.png'
+import fmeNine from '../assets/screenshots/fmeshots/fme-nine.png'
+import fmeTen from '../assets/screenshots/fmeshots/fme-ten.png'
+import fmeEleven from '../assets/screenshots/fmeshots/fme-eleven.png'
+import fmeTwelve from '../assets/screenshots/fmeshots/fme-twelve.png'
 
 const features = [
   {
       id: 1,
       name: 'Push to deploy.',
       description:
-      'The PlanMyEats menu planner and recipe finder mobile app is a game-changer in the world of culinary innovation. It\'s designed to transform your everyday cooking experience into a seamless, inspiring, and personalized journey. ',
+      `RandomEats is an app for indecisive eaters 
+      and brave restaurant enthusiasts who are looking for a random restaurant selection as their next eating adventure.`,
       icon: LightBulbIcon
   },
   {
       id: 2,
       name: 'SSL certificates.',
-      description: 'With a user-friendly interface, the app caters to all levels of culinary expertise, making menu planning and cooking a breeze.',
+      description: `RandomEats allows users to randomly select restaurants from various categories within 20 miles of the user's location.`,
       icon: CheckCircleIcon
   },
   {
       id: 3,
       name: 'Database backups.',
-      description: 'From novice cooks looking for beginner-friendly recipes to experienced chefs seeking fresh inspiration, the PlanMyEats app is your perfect kitchen companion.',
+      description: `Simply shake your phone to trigger the randomizer, and let fate decide where you eat next.`,
       icon: LightningBoltIcon
   },
   {
       id: 4,
       name: 'Database.',
-      description: 'PlanMyEats not only features a user-friendly interface but also cultivates a vibrant community where users share recipes and collaborate on meal plans.',
+      description: `RandomEats is now available in an assortment of languages, 
+      so that you can enjoy a more cultured dining experience!`,
       icon: UserGroupIcon
   },
 ]
@@ -57,99 +55,75 @@ const products = [
   {
     id: 1,
     name: 'Explore (Home Screen)',
-    image: exploreMain,
+    image: fmeOne,
     imageAlt: 'mobile screen',
   },
   {
     id: 2,
     name: 'Category Selector',
-    image: cuisineSelector,
+    image: fmeTwo,
     imageAlt: 'mobile screen',
   },
   {
     id: 3,
-    name: 'Recipe Selector',
-    image: recipeSelector,
+    name: 'Restaurant Details',
+    image: fmeThree,
     imageAlt: 'mobile screen',
   },
   {
     id: 4,
-    name: 'Search',
-    image: search,
+    name: 'Add Restaurants to My List',
+    image: fmeFour,
     imageAlt: 'mobile screen',
   },
   {
     id: 5,
-    name: 'Recipe',
-    image: recipeOne,
+    name: 'My List',
+    image: fmeFive,
     imageAlt: 'mobile screen',
   },
   {
     id: 6,
-    name: 'Recipe - Save to Menu and Favorites',
-    image: recipeTwo,
+    name: 'Sort by Distance, Rating, Price',
+    image: fmeSix,
     imageAlt: 'mobile screen',
   },
   {
     id: 7,
-    name: 'Recipe - Share/Export',
-    image: recipeThree,
+    name: 'Random Shake',
+    image: fmeSeven,
     imageAlt: 'mobile screen',
   },
   {
     id: 8,
-    name: 'Recipe - Help Page',
-    image: recipeFour,
+    name: 'Shuffling',
+    image: fmeEight,
     imageAlt: 'mobile screen',
   },
   {
     id: 9,
-    name: 'Menu Planner',
-    image: menuPlannerOne,
+    name: 'Final Selection',
+    image: fmeNine,
     imageAlt: 'mobile screen',
   },
   {
     id: 10,
-    name: 'Menu Planner - Day Select (Swipe Right)',
-    image: menuPlannerTwo,
+    name: 'Marked as Visited',
+    image: fmeTen,
     imageAlt: 'mobile screen',
   },
   {
     id: 11,
-    name: 'Menu Planner - Meal Select (Swipe Left)',
-    image: menuPlannerThree,
+    name: 'Language Settings',
+    image: fmeEleven,
     imageAlt: 'mobile screen',
   },
   {
     id: 12,
-    name: 'Menu Planner - Filters',
-    image: menuPlannerFour,
+    name: 'App Language Updated',
+    image: fmeTwelve,
     imageAlt: 'mobile screen',
   },
-  {
-    id: 13,
-    name: 'Search by Ingredients',
-    image: ingredientOne,
-    imageAlt: 'mobile screen',
-  },
-  {
-    id: 14,
-    name: 'Search by Ingredients',
-    image: ingredientTwo,
-    imageAlt: 'mobile screen',
-  },
-  {
-    id: 15,
-    name: 'Search by Ingredients',
-    image: ingredientThree,
-    imageAlt: 'mobile screen',
-  },
-  {
-    id: 16,
-    name: 'Favorites',
-    image: favorites,
-    imageAlt: 'mobile screen',
-  }
 ]
 
 export default function Example() {
@@ -177,10 +151,10 @@ export default function Example() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
             <h1 className="mt-2 text-3xl font-bold tracking-tight text-red-600 sm:text-4xl">
-              PlanMyEats
+              RandomEats
             </h1>
             <p className="mt-6 text-2xl leading-8 text-gray-600">
-            ...a user-friendly mobile app that revolutionizes the culinary experience!
+            ...the #1 app for indecisive eaters!
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-12 lg:max-w-4xl">
@@ -213,7 +187,7 @@ export default function Example() {
         >
           {isScrolledDown ? <ChevronUpIcon className="h-6 w-6" /> : <ChevronDownIcon className="h-6 w-6" />}
         </button>
-        {!isScrolledDown && <span className="hidden lg:block fixed bottom-4 right-14 p-2 text-red-600 bg-white rounded-full">PlanMyEats Gallery</span>}
+        {!isScrolledDown && <span className="hidden lg:block fixed bottom-4 right-14 p-2 text-red-600 bg-white rounded-full">RandomEats Gallery</span>}
       </div>
 
       {/* container two */}

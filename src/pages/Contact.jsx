@@ -25,7 +25,7 @@ export default function Home() {
                     </h1>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
                     Stay up to date with the latest news and updates from <a href="https://twitter.com/TheRetroFanatik" target="_blank" className="font-bold text-blue-900">
-                            ManCaveMobile on X.
+                            MobileEats on X.
                         </a>
                     </p>
                     <div className="mt-10 flex items-center justify-center gap-x-6">

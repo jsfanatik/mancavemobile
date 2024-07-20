@@ -1,29 +1,32 @@
 import { motion } from 'framer-motion';
-import { LightningBoltIcon, TrendingUpIcon, ShieldCheckIcon } from '@heroicons/react/solid'
-import imgOne from '../assets/screenshots/smartphone.png';
+import { LightningBoltIcon, TrendingUpIcon, SparklesIcon } from '@heroicons/react/solid'
+import imgOne from '../assets/mobile-app.png';
 
 const features = [
   {
-    name: 'ManCaveMobile',
+    name: 'MobileEats',
     description:
-      'is a unique and innovative mobile app development enterprise with a focus on creating entertaining, practical, and user-friendly mobile applications. Our one-of-a-kind approach is rooted in the concept of the "ManCave," where creative ideas are born and crafted into exceptional mobile solutions.',
+      `is a unique and innovative mobile app development enterprise with a focus on 
+      creating entertaining, practical, and user-friendly recipe and dining mobile applications.`,
     icon: LightningBoltIcon,
   },
   {
     name: 'Our mission',
-    description: 'is to transform the mundane into the extraordinary by developing a collection of fun, useful, and intuitive mobile applications. We believe that technology can be harnessed to make everyday tasks more enjoyable, productive, and accessible. We aim to build a digital "ManCave" where ideas come to life and technology is harnessed to make daily life more enjoyable and productive.',
+    description: `is to transform the mundane into the extraordinary by developing a 
+    collection of fun, useful, and intuitive mobile applications. We believe that technology 
+    can be harnessed to make recipe and restaurant-finding more enjoyable, productive, and accessible.`,
     icon: TrendingUpIcon,
   },
-  // {
-  //   name: 'Our vision',
-  //   description: '&copy; {new Date().getFullYear()} <span className="text-red-500">ManCave</span>Mobile. All rights reserved.',
-  //   icon: ShieldCheckIcon,
-  // },
+  {
+    name: 'Our vision',
+    description: `is to build a suite of mobile applications that are fun, useful, intuitive, and mouthwatering!`,
+    icon: SparklesIcon,
+  },
 ]
 
 export default function Example() {
   return (
-    <div className="overflow-hidden bg-white py-24 sm:py-32">
+    <div className="flex items-center justify-center min-h-screen overflow-hidden bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
