@@ -12,7 +12,7 @@ const navigation = [
   { name: 'PlanMyEats', href: '/pme/overview' },
   { name: 'RandomEats', href: '/fme/overview' },
   { name: 'About', href: '/about' },
-  { name: 'Contact', href: '/contact' },
+  // { name: 'Contact', href: '/contact' },
 ]
 
 function classNames(...classes) {
@@ -42,7 +42,9 @@ export default function Example() {
                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex flex-shrink-0 items-center">
                     <span className="text-2xl font-bold text-gray-300">
-                    Mobile<span className="text-red-500">Eats</span>
+                      <Link to="/">
+                        Mobile<span className="text-red-500">Eats</span>
+                      </Link>
                     </span>
                   </div>
                 </div>
@@ -95,7 +97,7 @@ export default function Example() {
         <Route path="about" element={<About />} />
         <Route path="/pme/overview" element={<Overview />} />
         <Route path="/fme/overview" element={<OverviewFME />} />
-        <Route path="/contact" element={<Contact />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
     </Router>
 
